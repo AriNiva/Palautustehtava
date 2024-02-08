@@ -1,0 +1,5 @@
+[{"id": 1, "name": "Elina Laaksonen", "address": "Keltakuja 24", "phone": "0401234567"},
+{"id": 2, "name": "Anton Mustonen", "address":"Mäntypolku 10", "phone": "0402345678"},
+{"id": 3, "name": "Jorma Korhonen", "address":"Kauppatie 5", "phone": "0403456789"},
+{"id": 4, "name": "Hanna Rajala", "address":"Koivukuja 7", "phone": "0404567890"},
+{"id": 5, "name": "Mauri Peltonen", "address":"Myllytie 8", "phone": "0405678901"}]

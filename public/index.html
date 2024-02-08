@@ -3,12 +3,23 @@
     <head>
         <title>Yritys</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="tyylit.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body onload="naytaEtusivu()">
-        <div id="main_alue"></div>  
-        <button onclick="naytaEtusivu()">Etusivu</button>
-        <button onclick="naytaYritystiedot()">Yritystiedot</button>
-        <button onclick="naytaYhteystiedot()">Yhteystiedot</button>
+        <div>
+            <h1>Yritys Oy</h1>
+        </div>
+        <div class="container">
+            <div class="div-left"> 
+                <button onclick="naytaEtusivu()">Etusivu</button>
+                <button onclick="naytaYritystiedot()">Yritystiedot</button>
+                <button onclick="naytaYhteystiedot()">Yhteystiedot</button>
+                <button onclick="fetchData()">Työntekijät</button>
+            </div>
+            <div id="main_alue" class="div-right"></div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
+ 

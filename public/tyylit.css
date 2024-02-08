@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+
+.div-left, .div-right {
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.company-name {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100% 
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.div-left button {
+    display: block;
+    margin: 10px;
+}
