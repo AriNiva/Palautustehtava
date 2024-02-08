@@ -7,19 +7,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body onload="naytaEtusivu()">
-        <div>
-            <h1>Yritys Oy</h1>
-        </div>
-        <div class="container">
-            <div class="div-left"> 
-                <button onclick="naytaEtusivu()">Etusivu</button>
-                <button onclick="naytaYritystiedot()">Yritystiedot</button>
-                <button onclick="naytaYhteystiedot()">Yhteystiedot</button>
-                <button onclick="fetchData()">Työntekijät</button>
-            </div>
-            <div id="main_alue" class="div-right"></div>
-        </div>
+
+        <ul>
+            <li><a href="#" onclick="naytaEtusivu(); return false;">Etusivu</a></li>
+            <li><a href="#" onclick="naytaYritystiedot(); return false;">Yritystiedot</a></li>
+            <li><a href="#" onclick="naytaYhteystiedot(); return false;">Yhteystiedot</a></li>
+            <li><a href="#" onclick="fetchData(); return false;">Työntekijät</a></li>
+        </ul>
+
+        <div id="main_alue"></div>
         <script src="script.js"></script>
     </body>
 </html>
+        
+             
+            
+        
  
