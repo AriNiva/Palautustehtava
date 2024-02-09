@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const henkilot = require("./henkilot.json")
+const henkilot = require("./henkilot.json");
 
 app.get("/api/henkilot", (req, res) => {
-    res.json(henkilot)
+    res.json(henkilot);
 });
 
 const polku = path.join(__dirname, "./public");
